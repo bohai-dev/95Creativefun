@@ -1,0 +1,211 @@
+/**index.wxss**/
+
+.swiper{
+  height: 320rpx;
+}
+.slideImage{
+  width: 100%;
+  height: 100%;
+}
+/* nav */
+.nav-box{
+  width:100%;
+  height:180rpx;
+  display:flex;
+}
+.nav{
+  flex: 1;
+  height: 100%;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content: center;
+}
+.nav-img-bg{
+  width:100rpx;
+  height:100rpx;
+  background:red;
+  border-radius:50rpx;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.nav-img{
+  width:60rpx;
+  height:60rpx;
+}
+.nav-text{
+  font:25rpx "微软雅黑";
+  color: #333;
+  margin-top: 10rpx;
+}
+/* nav */
+.video-box{
+  width: 100%;
+  height: 350rpx;
+  padding: 30rpx;
+  box-sizing:border-box; 
+}
+.video{
+  width: 100%;
+  height: 100%
+}
+.container {
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sign{
+  width: 100%;
+  height: 380rpx;
+}
+.content-one{
+  width:100%;
+  display:flex;
+  height:120rpx;
+}
+.item-introduce{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+.item-img{
+  width:50rpx;
+  height:50rpx;
+}
+.item-text{
+  font:35rpx "微软雅黑";
+  color: white;
+}
+.content-two{
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  height:110rpx;
+  display:flex;
+  justify-content: center;
+}
+.title text{
+  font:bold 45rpx "微软雅黑";
+  color:#333;
+  height: 100%;
+  display:flex;
+  align-items:center;
+  border-bottom:1px solid #F2F2F2;
+}
+.list-box{
+  padding:40rpx 30rpx;
+  border-bottom:1px solid #eee;
+}
+.list{
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+}
+.list-img-bg{
+  width:70rpx;
+  height:70rpx;
+  border-radius:35rpx;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.list-img{
+  width:35rpx;
+  height:35rpx;
+}
+.list-title{
+  margin-left:15rpx;
+  color:white;
+  font:32rpx "微软雅黑";
+}
+.list-text{
+  padding:40rpx 0 15rpx 85rpx;
+  color:#555;
+  font:30rpx "微软雅黑";
+  word-break: break-all;
+  word-wrap:break-word;
+  text-align: justify;
+}
+.proimg{
+  width: 100%;
+  height: 300rpx;
+  margin: 10rpx 0;
+}
+/* 图标背景 */
+.cyan{
+  background: cyan
+}
+.yellowgreen{
+  background: yellowgreen
+}
+.orange{
+  background: orange
+}
+.blue{
+  background:#80EAFD;
+}
+.green{
+  background:#C9F46F;
+}
+.yellow{
+  background:#F8D078;
+}
+.pink{
+  background:#FFE2E7;
+}
+.purple{
+  background: #B174F0;
+}
+.red{
+  background: #DD3333;
+}
+.light-purple{
+  background: #E3ECFD;
+}
+.magenta{
+  background: #FDE1E0;
+}
+.yellowish{
+  background: #FCFACA;
+}
+.color-purple{
+  color: #567FD1;
+}
+.color-red{
+  color: #FF4553;
+}
+.color-orange{
+  color: #DA7B5D;
+}
+/* 渐变背景 */
+.pink-gradient{
+  background:linear-gradient(to right,pink, rgba(255,255,255,0.1));
+}
+.yellowgreen-gradient{
+  background:linear-gradient(to right,yellowgreen, rgba(255,255,255,0.1));
+}
+.orange-gradient{
+  background:linear-gradient(to right,orange, rgba(255,255,255,0.1));
+}
+.purple-gradient{
+  background:linear-gradient(to right,#B174F0, rgba(255,255,255,0.1));
+}
+.red-gradient{
+  background:linear-gradient(to right,#DD3333, rgba(255,255,255,0.1));
+}
+.cyan-gradient{
+  background:linear-gradient(to right,cyan, rgba(255,255,255,0.1));
+}
+.blue-gradient{
+  background:linear-gradient(to right,#11d1f4, rgba(255,255,255,0.1));
+}

@@ -1,0 +1,13 @@
+<!--pages/about/aboutUs/aboutUs.wxml-->
+<view class='body'>
+  <view class='title'>关于我们</view>
+  <view class='img'>
+    <!-- <image src='../../../images/about/banner1.jpg'></image> -->
+  </view>
+  <view class='content'>
+    <view>95创享科技横跨中加两国，拥有当下最顶尖的技术，深度了解本土市场情况。
+商户需求、市场现状、成熟研发技术，95创享科技将三者合一，秉承着用心服务加拿大的商户和用户。</view>
+    <view>95创享科技引领新潮流产品和服务，基于社交软件作为载体，帮助当下互联网时代的本地商户拓展互联网客户群、降低成本、提高经营效率，多线产品开发全面助力商家创造更大的营收。</view>
+    <view>我们致力于成为商家服务领域里最被信任的引领者！</view>
+  </view>
+</view>

@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/service/service",
+    "pages/case/case",
+    "pages/about/about",
+    "pages/service/serviceDetail/serviceDetail",
+    "pages/brand/pageThree/pageThree",
+    "pages/brand/pageOne/pageOne",
+    "pages/brand/pageTwo/pageTwo",
+    "pages/about/aboutUs/aboutUs",
+    "pages/about/teamProfile/teamProfile",
+    "pages/index/news/news",
+    "pages/index/about/about",
+    "pages/index/news/newsDetail/newsDetail",
+    "pages/case/caseDetail/caseDetail",
+    "pages/contactUs/contactUs",
+    "pages/index/contactUs/contactUs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#11d1f4",
+    "navigationBarTitleText": "95创享",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "color": "#dbdbdb",
+    "selectedColor": "#11d1f4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/navIcon/home.png",
+        "selectedIconPath": "./images/navIcon/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "./images/navIcon/service.png",
+        "selectedIconPath": "./images/navIcon/service1.png",
+        "text": "产品服务"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "iconPath": "./images/navIcon/case.png",
+        "selectedIconPath": "./images/navIcon/case1.png",
+        "text": "成功案例"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "./images/navIcon/about.png",
+        "selectedIconPath": "./images/navIcon/about1.png",
+        "text": "关于我们"
+      }
+    ]
+  }
+}

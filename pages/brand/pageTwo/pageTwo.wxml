@@ -1,0 +1,11 @@
+<!--pages/brand/pageTwo/pageTwo.wxml-->
+<view class="body">
+   <block wx:for="{{exampleList}}" wx:key=""> 
+    <navigator class='item' open-type='navigate' url='{{item.navUrl}}' hover-class='hover-item'>
+      <view class='item-list'>
+        <image class='item-img' src='{{item.imgUrl}}'></image>
+        <view class='item-title'>{{item.title}}</view>
+      </view>
+    </navigator>
+   </block> 
+</view>

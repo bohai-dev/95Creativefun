@@ -1,0 +1,19 @@
+<!--pages/index/contactUs/contactUs.wxml-->
+<view class='body'>
+  <image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/about/aboutUs.png'></image>
+  <view class='container'>
+    <view class='title'>我们是谁 ？</view>
+    <view class='subtitle'><text>who we are ?</text></view>
+    <view class='content'>95创享科技横跨中加两国，拥有当下最顶尖的技术，深度了解本土市场情况。商户需求、市场现状、成熟研发技术，95创享科技将三者合一，秉承着用心服务加拿大的商户和用户,致力于成为商家服务领域里最被信任的引领者！</view>
+    <image class='articleImg' mode='widthFix' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/about/threemajor.png'></image>
+    <view class='title'>＂三专＂</view>
+    <view class='subtitle'><text>three major</text></view>
+    <view class='content'>95创享科技有限公司相信专一力量，从2015年建立起至今，专注营销型电商平台开发。</view>
+    <view class='content'>我们的定位：最具商业价值的网络营销应用技术与服务解决方案提供商！最具商业价值 - 传递价值输出给客户，满足市场需求。网络 - 是趋势， 营销 - 是刚需。应用技术 - 提供完善的技术工具。服务 - 提供相应的服务产品。</view>
+    <image class='articleImg' mode='widthFix' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/about/team.png'></image>
+    <view class='title'>团队介绍</view>
+    <view class='subtitle'><text>team</text></view>
+    <view class='content'>产品研发部：产品研发工作核心成员都有10年以上的开发经历，团队在跨系统、跨平台、跨语言的复杂系统整合及开发能力突出。</view>
+    <view class='content'>市场拓展部：市场运营服务团队皆是产品、运营及营销专业出身，力求将最适合的产品形态，与最先进的营销理念相结合，准确表达客户需求。</view>
+  </view>
+</view>

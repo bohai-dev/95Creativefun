@@ -1,0 +1,45 @@
+/* pages/index/news/news.wxss */
+@import "../about/about.wxss";
+.body{
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.news-list{
+  height:240rpx;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid #eee; 
+}
+.content{
+  width:450rpx;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.title{
+  font:bold 35rpx "微软雅黑";
+  color:#333;
+}
+.time{
+  font-size:30rpx;
+  color:#999;
+  margin-top:5rpx;
+}
+.img{
+  width:180rpx;
+  height:180rpx;
+}
+.img image{
+  width: 100%;
+  height:100%;
+}
+.webView{
+  width: 100rpx;
+  height: 100rpx;
+  background: red;
+}

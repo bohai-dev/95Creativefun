@@ -1,0 +1,30 @@
+<!--pages/service/pageOne/pageOne.wxml-->
+<view class='body'>
+  <view class='title'>{{content.topic}}</view>
+  <view class='description'>
+    <view class='time'>{{content.time}}</view>
+    <view class='btn' bindtap='backPage'>产品服务</view>
+  </view>
+  <block wx:for="{{content.contentList}}" wx:key="">
+    <view class='list-box'>
+      <view class='list-title'>{{item.mainTitle}}</view>
+      <block wx:for="{{item.detail}}" wx:key="" wx:for-item="childItem1">
+        <view class='content'>
+          <view class='content-title' wx:if="{{childItem1.icoUrl||childItem1.title}}">
+            <image class='title-ico' src='{{childItem1.icoUrl}}' wx:if="{{childItem1.icoUrl}}"></image>
+            <text class='title-text'>{{childItem1.title}}<text class='bigblue'>{{childItem1.specialFonts}}</text></text>
+          </view>
+          <view class='content-img' wx:if="{{childItem1.imgUrl||childItem1.text}}">
+            <image class='img' mode='aspectFit' src='{{childItem1.imgUrl}}' wx:if="{{childItem1.imgUrl}}"></image>
+            <text class='img-text'>{{childItem1.text}}</text>
+          </view>
+          <view class='content-text'>{{childItem1.description}}</view>
+        </view>
+      </block>
+      <block wx:for="{{item.text}}" wx:key="" wx:for-item="childItem2">
+        <view class='list-text'><text class='bigblue'>{{childItem2.specialFonts}}</text>{{childItem2.text}}</view>
+      </block>
+      <image class='contentImg' mode='widthFix' src='{{item.imgUrl}}' wx:if="{{item.imgUrl}}"></image> 
+    </view>
+  </block>
+</view>

@@ -1,0 +1,24 @@
+<!--pages/contactUs/contactUs.wxml-->
+<view class='container'>
+  <form bindsubmit="formSubmit">
+    <view class='body'>
+      <image class='main-img' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/contactUs/contact.png'></image> 
+      <view class='title'>开通小程序</view>  
+      <view class='info'>
+        <view class='formView'>联系人：<text class='red'>*</text>
+          <input name="name" type='text' placeholder='请输入联系人：' placeholder-class='gray'></input>
+        </view>
+        <view class='formView'>联系电话：<text class='red'>*</text>
+          <input name="phone" type='number' placeholder='请输入联系电话：' placeholder-class='gray'></input>
+        </view>
+        <view class='formView'>QQ/微信：<text class='red'>*</text>
+          <input name="wechat" adjust-position="false" type='text' placeholder='请输入QQ/微信：' placeholder-class='gray'></input>
+        </view>
+        <view class='formView'>咨询内容：<text class='red'>*</text>
+          <input name="detail" adjust-position="false" placeholder='请输入咨询内容：' placeholder-class='gray'></input>
+        </view>
+        <button class='btn' form-type='submit'>确定</button>
+      </view>
+    </view>
+  </form>
+</view> 

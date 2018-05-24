@@ -1,0 +1,16 @@
+<!--pages/case/caseDetail/caseDetail.wxml-->
+<view class='body'>
+  <view class='title'>{{title}}</view>
+  <view class='description'>
+    <view class='time'>2018-05-14 16:39</view>
+    <view class='btn' bindtap='backPage'>成功案例</view>
+  </view>
+  <block wx:for="{{content}}" wx:key="">
+    <image class='contentImg' mode='widthFix' src='{{item}}'></image>
+    <view class='cut-line-view'>
+      <view class='cut-line'></view>
+      <text>95创享</text>
+      <view class='cut-line'></view>
+    </view>
+  </block>
+</view>

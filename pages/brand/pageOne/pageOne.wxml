@@ -1,0 +1,17 @@
+<!--pages/brand/pageOne/pageOne.wxml-->
+<view class='body'>
+  <view class='title'>企业文化</view>
+  <view class='description'>
+    <view class='time'>2018-05-16 15:15</view>
+    <view class='btn' bindtap='backPage'>品牌理念</view>
+  </view>
+  <!-- <image class='main-img' src='../../../images/service/service1.png'></image> -->
+  <block wx:for="{{contentList}}" wx:key="">
+    <view class='list-box'>
+      <view class='list {{item.backgroundColor}}'>
+        <text class='list-title'>{{item.title}}</text>
+      </view>
+      <view class='list-text'>{{item.text}}</view>
+    </view>
+  </block>
+</view>

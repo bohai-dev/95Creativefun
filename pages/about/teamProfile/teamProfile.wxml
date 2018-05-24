@@ -1,0 +1,15 @@
+<!--pages/about/teamProfile/teamProfile.wxml-->
+<view class='body'>
+  <view class='title'>团队介绍</view>
+  <view class='img'>
+    <!-- <image src='../../../images/about/team.jpg'></image> -->
+  </view>
+  <view class='content'>
+    <view>产品研发工作核心成员都有10年以上的开发经历，团队在跨系统、跨平台、跨语言的复杂系统整合及开发能力突出。</view>
+    <view class='bold'>开发语言：</view>
+    <view>JAVA语言 ，PYTHON语言 ，MATLAB语言 ，ANDROID开发 ，苹果IOS开发，PHP 语言，VB语言,  HTML5语言，JAVASCRIPT语言</view>
+    <view class='bold'>数据库：</view>
+    <view>ORACLE数据库 ，MYSQL数据库 ，SQLIT数据库 ，REDIS数据库 ，SQL SERVER数据库 ，DB2数据库 </view>
+    <view>市场运营服务团队，主管市场及运营工作，团队成员皆是产品、运营及营销专业出身，熟知各式运营模式。在互联网及移动互联网高速发展背景下，我们重视客户诉求，能轻松理解客户的构想，并将客户的意图表现出来，力求将最适合的产品形态，与最先进的营销、运营理念相结合，将客户的产品表达清楚，准确。         </view>
+  </view>
+</view>

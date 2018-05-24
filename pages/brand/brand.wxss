@@ -1,0 +1,47 @@
+/* pages/test/demo.wxss */
+.section{
+  width: 100%;
+  min-height: 100%;
+}
+.from-jl{
+  width:90%;
+  height:200rpx;
+  margin:20rpx auto;
+  border-radius:10rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.blue{
+  background:linear-gradient(to right, #03F1FE, #1CDAFE , #25D2FD , #42B8FE);
+}
+.green{
+  background:linear-gradient(to right, #45ff20, #03c447);
+}
+.red{
+  background:linear-gradient(to right, #fd00a1 ,#F10267, #dd0500);
+}
+.title{
+  color: white;
+  font-size: 35rpx;
+  display: block;
+  letter-spacing:5rpx;
+}
+.describe{
+  color: white;
+  font-size: 65rpx;
+  display: block;
+  letter-spacing: 20rpx;
+}
+.btn{
+  color: #33CCFF;
+  display: block;
+  font-size: 30rpx;
+  width: 400rpx;
+  height: 80rpx;
+  background: white;
+  text-align:center;
+  line-height:80rpx;
+  border-radius:40rpx;
+}

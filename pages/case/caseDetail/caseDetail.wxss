@@ -1,0 +1,22 @@
+/* pages/case/caseDetail/caseDetail.wxss */
+@import "../../service/serviceDetail/serviceDetail.wxss";
+.cut-line-view{
+  height:100rpx;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:30rpx;
+  color:#888;
+}
+.cut-line-view:last-child{
+  display: none;
+}
+.cut-line{
+  flex:1;
+  height:1px;
+  border-bottom:1px solid #999;
+}
+.cut-line-view text{
+  flex: 1;
+  text-align: center;
+}

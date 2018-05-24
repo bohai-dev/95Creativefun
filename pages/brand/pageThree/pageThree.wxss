@@ -1,0 +1,43 @@
+/* pages/brand/pageThree/pageThree.wxss */
+.body{
+  width: 100%;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.mainImg{
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainImg image{
+  width: 300rpx;
+  height: 100rpx;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.cooperationList{
+  height:240rpx;
+  display:flex;
+  margin-bottom:20rpx;
+}
+.cooperationList image{
+  width:240rpx;
+  height:100%;
+  border:1px solid purple;
+}
+.introduce{
+  height:100%;
+  width:450rpx;
+  background:#eee;
+  font-size:30rpx;
+  color:#333;
+  padding:20rpx;
+  box-sizing:border-box;
+  flex-wrap:wrap;
+}
+

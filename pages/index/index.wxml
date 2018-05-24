@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<!--轮播图-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true" indicator-color="#fff" indicator-active-color="#11d1f4">
+  <block wx:for="{{swiperList}}" wx:key="index" wx:for-index="index">     
+    <swiper-item>
+        <image src="{{item}}" class="slideImage" mode="scaleToFill"/>
+    </swiper-item>
+  </block> 
+</swiper>
+<!-- 导航栏 -->
+<view class='nav-box'>
+  <block wx:for="{{nav}}" wx:key="">
+    <navigator class='nav' wx:if="{{item.show}}" open-type="navigate" url='{{item.navUrl}}' hover-class='none'>
+      <view class='nav-img-bg {{item.backgroundColor}}'>
+        <image class='nav-img' src='{{item.img}}'></image>
+      </view>
+      <view class='nav-text'>{{item.text}}</view>
+    </navigator>
+    <navigator class='nav' wx:else="{{!item.show}}" open-type="switchTab" url='{{item.navUrl}}' hover-class='none'>
+      <view class='nav-img-bg {{item.backgroundColor}}'>
+        <image class='nav-img' src='{{item.img}}'></image>
+      </view>
+      <view class='nav-text'>{{item.text}}</view>
+    </navigator>
+  </block>
+</view>
+<!-- 视频 -->
+<view class='video-box'>
+  <video class='video' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/video/CompanyVideo.mp4' controls='true' objectFit="fill"></video>
+</view>
+<!-- 首页内容 -->
+<view class="container">
+  <!-- 三模块 -->
+  <!-- <view class='content-one'>
+    <block wx:for="{{introduce}}" wx:key="">
+      <view class='item-introduce {{item.backgroundColor}}'>
+        <text class='item-text {{item.color}}'>{{item.text}}</text>
+      </view>
+    </block>
+  </view> -->
+  <image class='sign' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/index1.png'></image>
+  <!-- 解决方案 -->
+  <view class='content-two'>
+    <view class='title'><text>一站式电商解决方案</text></view>
+    <block wx:for="{{contentList}}" wx:key="">
+      <image class='proimg' src='{{item}}'></image>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+/* pages/case/case.wxss */
+@import "../index/about/about.wxss";
+.body{
+  width: 100%;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.item{
+  width: 100%;
+}
+.item-img{
+  width: 100%;
+  height: 260rpx;
+}
+.item-title{
+  height:50rpx;
+  display:flex;
+  align-items: center;
+  font-size:30rpx;
+  color: #333;
+  padding: 20rpx 0;
+}
+/* .item:first-child .item-title{
+  border: none;
+} */

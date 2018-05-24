@@ -1,0 +1,8 @@
+/* pages/index/news/newsDetail/newsDetail.wxss */
+@import "../../../service/serviceDetail/serviceDetail.wxss";
+.body{
+  padding: 0;
+}
+.main-img{
+  width: 100%;
+}

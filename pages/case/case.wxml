@@ -1,0 +1,16 @@
+<!--pages/case/case.wxml-->
+<image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case.png'></image>
+<view class="body">
+  <view class='container' style='padding:30rpx 0'>
+    <view class='title'>多行业展示</view>
+    <view class='subtitle'><text>case</text></view>
+  </view>
+  <block wx:for="{{exampleList}}" wx:key=""> 
+    <navigator class='item' open-type='navigate' url='./caseDetail/caseDetail?index={{index}}&title={{item.title}}' hover-class='hover-item'>
+      <!-- <view class='item-list'> -->
+        <view class='item-title'>{{item.title}}</view>
+        <image class='item-img' src='{{item.imgUrl}}'></image>
+      <!-- </view> -->
+    </navigator>
+  </block> 
+</view>

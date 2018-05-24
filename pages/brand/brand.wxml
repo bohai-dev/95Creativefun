@@ -1,0 +1,9 @@
+<view class="section">
+  <block wx:for="{{brandList}}" wx:key="">
+    <navigator url="{{item.navUrl}}" hover-class="none" bindtap='initData'>
+      <view class="from-jl {{item.navBg}}">
+        <text class='describe'>{{item.title}}</text>
+      </view>
+    </navigator>
+  </block>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/brand/pageThree/pageThree.wxml-->
+<view class="body">
+  <view class='mainImg'>
+    <image src='../../../images/brand/cooperation.png'></image>
+  </view>
+  <view class='content'>
+    <block wx:for="{{cooperationList}}" wx:key="">
+      <view class='cooperationList'>
+        <image src='{{item.imgUrl}}'></image>
+        <view class='introduce'>{{item.introduce}}</view>
+      </view>
+    </block>
+  </view>
+</view>

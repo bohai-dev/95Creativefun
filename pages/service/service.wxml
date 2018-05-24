@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+<image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service.png'></image>
+<view class="body">
+  <view class='container' style='padding:30rpx 0'>
+    <view class='title'>全方位服务</view>
+    <view class='subtitle'><text>service</text></view>
+  </view>
+  <block wx:for="{{itemList}}" wx:key="">
+    <navigator class='item' open-type='navigate' url='./serviceDetail/serviceDetail?index={{index}}' hover-class='hover-item'>
+      <view class='item-list'>
+        <image class='item-img' src='{{item.imgUrl}}'></image>
+        <!-- <text class='item-title'>{{item.title}}</text> -->
+      </view>
+    </navigator>
+  </block>
+</view>

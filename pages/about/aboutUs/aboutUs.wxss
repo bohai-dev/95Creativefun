@@ -1,0 +1,2 @@
+/* pages/about/aboutUs/aboutUs.wxss */
+@import "../teamProfile/teamProfile.wxss";

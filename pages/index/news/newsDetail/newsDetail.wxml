@@ -1,0 +1,14 @@
+<!--pages/index/news/newsDetail/newsDetail.wxml-->
+<view class='body'>
+  <!-- <view class='title'>小程序的全方位介绍</view>
+  <view class='description'>
+    <view class='time'>2018-05-21 09:06</view>
+    <view class='btn' bindtap='backPage'>新闻中心</view>
+  </view>
+  <image class='main-img' mode='widthFix' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/news/news.png'></image>
+  <view class='list-title'>Loading..</view> -->
+  <!-- <web-view src="{{newUrl}}"></web-view> -->
+  <block wx:for="{{newUrl}}" wx:key="">
+    <image class='main-img' mode='widthFix' src='{{item}}'></image>
+  </block>
+</view>
