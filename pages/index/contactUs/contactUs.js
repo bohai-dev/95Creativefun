@@ -118,7 +118,7 @@ Page({
       }
       console.log(data);
       wx.request({
-        url: 'https://www.95cfun.com/contactUs',
+        url: 'https://www.95cfuns.com/contactUs',
         method: 'POST',
         header: {
           "content-type": "application/json"
