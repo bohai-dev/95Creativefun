@@ -111,14 +111,15 @@ Page({
       var _this = this;
       wx.hideLoading();   //关闭模态框
       var data = {
-        name: e.detail.value.name,
-        phone: e.detail.value.phone,
-        wechat: e.detail.value.wechat,
-        detail: e.detail.value.detail
+        companyId:2,
+        contactUser: e.detail.value.name,
+        contactPhone: e.detail.value.phone,
+        qqWechat: e.detail.value.wechat,
+        contactDeatil: e.detail.value.detail
       }
       console.log(data);
       wx.request({
-        url: 'https://www.95cfuns.com/contactUs',
+        url: 'https://www.95cfun.com/contactUs/insert',
         method: 'POST',
         header: {
           "content-type": "application/json"
