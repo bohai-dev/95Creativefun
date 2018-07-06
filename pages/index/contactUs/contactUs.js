@@ -119,7 +119,7 @@ Page({
       }
       console.log(data);
       wx.request({
-        url: 'https://www.95cfun.com/contactUs/insert',
+        url: 'https://www.95cfun.top/contactUs/insert',
         method: 'POST',
         header: {
           "content-type": "application/json"
