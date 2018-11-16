@@ -6,28 +6,28 @@ Page({
    */
   data: {
     exampleList: [{
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case1.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case1.jpg",
       title: "旅游酒店类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case2.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case2.jpg",
       title: "教育培训类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case3.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case3.jpg",
       title: "休闲娱乐类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case4.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case4.jpg",
       title: "零售百货类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case5.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case5.jpg",
       title: "餐饮美食类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case6.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case6.jpg",
       title: "美容美发类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case7.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case7.jpg",
       title: "运动健身类小程序展示"
     }, {
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case8.jpg",
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case8.jpg",
       title: "地产置业类小程序展示"
     }]
   },

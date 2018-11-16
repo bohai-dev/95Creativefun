@@ -5,9 +5,9 @@ const app = getApp()
 Page({
   data: {
     swiperList: [
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/banner/banner3.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/banner/banner2.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/banner/banner1.jpg"
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/banner/banner3.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/banner/banner2.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/banner/banner1.jpg"
     ],
     nav:[{
       navUrl:"../about/about",
@@ -41,12 +41,12 @@ Page({
       show: false
     }],
     contentList: [
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/index/pro1.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/index/pro2.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/index/pro3.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/index/pro4.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/index/pro5.jpg",
-      "https://qswebsite.oss-cn-beijing.aliyuncs.com/index/pro6.jpg"
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/pro1.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/pro2.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/pro3.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/pro4.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/pro5.jpg",
+      "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/pro6.jpg"
     ]
   },
   onLoad: function () {

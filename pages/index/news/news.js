@@ -8,31 +8,31 @@ Page({
     newsList:[{
       title:"小程序的全方位介绍",
       time:"2018-05-21 09:06",
-      imgUrl:"https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new1.jpg"
+      imgUrl:"https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new1.jpg"
     }, {
       title: "小程序 VS 传统电商平台，谁将是最后赢家？",
       time: "2018-05-21 09:06",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new2.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new2.jpg"
     }, {
       title: "八个理由告诉你，为什么要你要做小程序！",
       time: "2018-05-21 09:06",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new3.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new3.jpg"
     }, {
       title: "为什么小程序是汽车服务门店的首选营销工具？",
       time: "2018-05-21 09:06",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new4.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new4.jpg"
     }, {
       title: "水果店借助小程序营销，每天收入净增2万+",
       time: "2018-05-21 09:06",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new5.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new5.jpg"
     }, {
       title: "微信小程序：每一个店铺都是品牌",
       time: "2018-05-21 09:06",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new6.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new6.jpg"
     }, {
       title: "小程序+餐饮，看看人家都已经怎么玩了吧！",
       time: "2018-05-21 09:06",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/news/new7.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/new7.jpg"
     }]
   },
 

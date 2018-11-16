@@ -1,5 +1,5 @@
 <!--pages/index/news/news.wxml-->
-<image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/news/news.png'></image>
+<image class='mianImg' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/news/news.png'></image>
 <view class='body'>
   <block wx:for="{{newsList}}" wx:key="">
     <navigator class='news-list' open-type='navigate' url='./newsDetail/newsDetail?index={{index}}' hover-class='none'>

@@ -26,7 +26,7 @@
 </view>
 <!-- 视频 -->
 <view class='video-box'>
-  <video class='video' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/video/CompanyVideo.mp4' controls='true' objectFit="fill"></video>
+  <video class='video' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/video/CompanyVideo.mp4' controls='true' objectFit="fill"></video>
 </view>
 <!-- 首页内容 -->
 <view class="container">
@@ -38,7 +38,7 @@
       </view>
     </block>
   </view> -->
-  <image class='sign' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/index1.png'></image>
+  <image class='sign' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/index/index1.jpg'></image>
   <!-- 解决方案 -->
   <view class='content-two'>
     <view class='title'><text>一站式电商解决方案</text></view>

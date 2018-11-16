@@ -1,5 +1,5 @@
 <!--pages/case/case.wxml-->
-<image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/case/case.png'></image>
+<image class='mianImg' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/case/case.png'></image>
 <view class="body">
   <view class='container' style='padding:30rpx 0'>
     <view class='title'>多行业展示</view>

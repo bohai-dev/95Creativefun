@@ -1,8 +1,8 @@
 <!--pages/about/about.wxml-->
 <view class='body'>
-  <image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/about/aboutUs.png'></image>
-  <image class='articleImg' mode='widthFix' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/index/about/aboutContent.png'></image>
-  <image mode='widthFix' class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/contactUs/companyinfo1.png'></image>
+  <image class='mianImg' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/about/aboutUs.png'></image>
+  <image class='articleImg' mode='widthFix' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/about/aboutContent.png'></image>
+  <image mode='widthFix' class='mianImg' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/about/companyinfo1.png'></image>
   <!-- <view class='container'>
     <view class='title'>我们是谁 ？</view>
     <view class='subtitle'><text>who we are ?</text></view>

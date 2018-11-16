@@ -7,23 +7,22 @@ Page({
   data: {
     itemList:[{
       navUrl:"./pageOne/pageOne",
-      imgUrl:"https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service1.jpg"
-      // title:"移动端应用开发"
+      imgUrl:"https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service1.jpg"
     }, {
       navUrl:"./pageTwo/pageTwo",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service2.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service2.jpg"
     }, {
       navUrl:"./pageThree/pageThree",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service3.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service3.jpg"
     }, {
       navUrl: "./pageFour/pageFour",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service4.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service4.jpg"
     }, {
       navUrl: "./pageFour/pageFour",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service5.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service5.jpg"
     }, {
       navUrl: "./pageFour/pageFour",
-      imgUrl: "https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service6.jpg"
+      imgUrl: "https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service6.jpg"
     }]
   },
 

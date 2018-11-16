@@ -2,7 +2,7 @@
 <view class='container'>
   <form bindsubmit="formSubmit">
     <view class='body'>
-      <image class='main-img' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/contactUs/contact.png'></image> 
+      <image class='main-img' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/contactUs/wengehua.png'></image> 
       <view class='title'>开通小程序</view>  
       <view class='info'>
         <view class='formView'>联系人：<text class='red'>*</text>

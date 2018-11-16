@@ -1,5 +1,5 @@
 <!--logs.wxml-->
-<image class='mianImg' src='https://qswebsite.oss-cn-beijing.aliyuncs.com/productService/service.png'></image>
+<image class='mianImg' src='https://qsiphonewebsite.oss-cn-beijing.aliyuncs.com/service/service.png'></image>
 <view class="body">
   <view class='container' style='padding:30rpx 0'>
     <view class='title'>全方位服务</view>
